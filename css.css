@@ -1,5 +1,5 @@
 .title {
-    color: rgb(255, 102, 0);
+    color: rgb(12, 42, 126);
     text-align: center;
 }
 
@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: #333333ad;
+    background-color: #8b8585ad;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -29,9 +29,9 @@ nav ul {
 }
 
 nav ul li {
-    list-style:none ;
+    list-style: none;
     display: inline-block;
-    background-color: rgb(252, 87, 27);
+    background-color: rgb(60, 58, 197);
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
@@ -40,7 +40,7 @@ nav ul li {
     transition: 0.5s;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     background-color: rgb(47, 0, 255);
 }
 
@@ -85,7 +85,8 @@ main {
     padding: 10px;
 }
 
-.contact input, .contact textarea {
+.contact input,
+.contact textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -95,8 +96,8 @@ main {
 }
 
 .contact input[type="submit"] {
-    background-color: #f7f7f744;
-    color: #fff;
+    background-color: #2157bd44;
+    color: #ffffff81;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -112,12 +113,13 @@ main {
     margin-top: 20px;
 }
 
-p, h1 {
-    color: rgb(255, 102, 0);
+p,
+h1 {
+    color: rgb(11, 43, 104);
 }
 
 footer {
-    background-color: #333333ad;
+    background-color: #adb2b891;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -125,17 +127,30 @@ footer {
     justify-content: space-between;
 }
 
-footer h2{
-    color: aliceblue;
+footer h2 {
+    color: rgb(5, 75, 107);
     font-size: 20px;
 }
 
-.social a{
-    color:aliceblue;
+.social a {
+    color: aliceblue;
     margin: 10px;
     font-size: 30px;
     text-decoration: none;
 }
-.social b{
+
+.social b {
     color: aliceblue;
+}
+
+.image-container {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.image-container img {
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 20%;
 }
